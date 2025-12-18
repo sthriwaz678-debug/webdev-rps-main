@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reliance Public School</title>
+
+<!-- Bootstrap 5 -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+body { font-family: "Segoe UI", sans-serif; margin: 0; }
+.navbar { background: purple; }
+.navbar-brand, .nav-link { color: yellow !important; font-weight: 600; }
+.hero-text { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; color: white; }
+.hero-text h1 { font-size: 3rem; font-weight: 800; }
+.hero-text p { font-size: 1.4rem; margin-top: 10px; }
+.section { padding: 70px 20px; }
+.section h2 { color: purple; font-weight: bold; margin-bottom: 40px; }
+.card { border: none; box-shadow: 0 4px 18px rgba(0,0,0,0.3); }
+.card img { height: 200px; object-fit: cover; border-radius: 5px; }
+footer { background: purple; color: white; text-align: center; padding: 20px; }
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">
+      <img src="logo.png" width="40" class="me-2">
+      Reliance Public School
+    </a>
+    <button class="navbar-toggler bg-warning" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="academics.html">Academics</a></li>
+        <li class="nav-item"><a class="nav-link" href="admissions.html">Admissions</a></li>
+        <li class="nav-item"><a class="nav-link" href="faculty.html">Faculty</a></li>
+        <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="position-relative">
+  <img src="rps.png" alt="Hero Image" class="w-100" style="height: 90vh; object-fit: cover; filter: brightness(0.55);">
+  <div class="hero-text">
+    <h1>Welcome to Reliance Public School</h1>
+    <p>Excellence in Education from Primary to High School</p>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="section text-center">
+  <div class="container">
+    <h2>Why Choose Us?</h2>
+    <p>Reliance Public School focuses on academic excellence, discipline, innovation, and holistic student development.</p>
+  </div>
+</section>
+
+<!-- OUR STRENGTHS -->
+<section class="section text-center">
+  <div class="container">
+    <h2>Our Strengths</h2>
+    <div class="row g-4 justify-content-center">
+      <div class="col-md-4">
+        <div class="card p-3">
+          <img src="teach.png" alt="Qualified Teachers" class="card-img-top mb-3">
+          <h4>Qualified Teachers</h4>
+          <p>Dedicated and experienced teaching staff.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card p-3">
+          <img src="pri.png" alt="Modern Facilities" class="card-img-top mb-3">
+          <h4>Modern Facilities</h4>
+          <p>Smart classrooms, labs, and learning spaces.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card p-3">
+          <img src="groth.png" alt="Student Growth" class="card-img-top mb-3">
+          <h4>Student Growth</h4>
+          <p>Balanced academics, sports, and values.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2025 Reliance Public School | Designed by Riwaz Makaju</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
